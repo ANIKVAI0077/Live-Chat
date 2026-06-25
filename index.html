@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Send</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+    <h2>Quick Send</h2>
+
+    <input type="text" id="room" placeholder="Room ID">
+    <textarea id="message" placeholder="Write something..."></textarea>
+
+    <button onclick="sendMessage()">Send</button>
+
+    <div id="received"></div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    font-family: Arial,sans-serif;
+    background:#0f172a;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:500px;
+}
+
+input,textarea{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border:none;
+    border-radius:8px;
+}
+
+textarea{
+    height:120px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#22c55e;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+#received{
+    margin-top:20px;
+    background:white;
+    color:black;
+    padding:10px;
+    border-radius:8px;
+}
